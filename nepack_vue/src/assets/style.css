@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-menu-item {
+  @apply py-1 tracking-widest hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-light-coffee after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
+}
+
+.tqd-top-menu {
+  @apply absolute py-2 top-12 text-center w-full z-50 bg-white animate-slideDown;
+}
+.tqd-icon {
+  @apply w-5 h-5 inline-block;
+}
+.tql-badge-circle {
+  @apply text-xs text-center rounded-full px-1.5;
+}
+.input {
+  @apply block mb-2 text-sm font-medium mt-3;
+}
+.input2 {
+  @apply border sm:text-sm rounded-lg block w-full p-2.5 border-gray-300 placeholder-gray-400;
+}
+.header-a{
+  @apply flex items-center p-2 text-gray-900 rounded-lg  hover:bg-gray-200;
+}
+.header-svg{
+  @apply w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900;
+}
+
